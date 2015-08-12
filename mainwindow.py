@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'mainwindow.ui'
 #
-# Created: Wed Aug 12 00:49:38 2015
+# Created: Wed Aug 12 01:15:09 2015
 #      by: pyside-uic 0.2.15 running on PySide 1.2.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -18,6 +18,9 @@ class Ui_TestMainWindow(object):
         self.button = QtGui.QPushButton(self.centralwidget)
         self.button.setGeometry(QtCore.QRect(140, 100, 75, 23))
         self.button.setObjectName("button")
+        self.button3 = QtGui.QPushButton(self.centralwidget)
+        self.button3.setGeometry(QtCore.QRect(234, 190, 101, 23))
+        self.button3.setObjectName("button3")
         TestMainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtGui.QMenuBar(TestMainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 369, 21))
@@ -40,6 +43,7 @@ class Ui_TestMainWindow(object):
     def retranslateUi(self, TestMainWindow):
         TestMainWindow.setWindowTitle(QtGui.QApplication.translate("TestMainWindow", "PySide Test Window", None, QtGui.QApplication.UnicodeUTF8))
         self.button.setText(QtGui.QApplication.translate("TestMainWindow", "Press Me!", None, QtGui.QApplication.UnicodeUTF8))
+        self.button3.setText(QtGui.QApplication.translate("TestMainWindow", "AlsoDoesNothing", None, QtGui.QApplication.UnicodeUTF8))
         self.menuFile.setTitle(QtGui.QApplication.translate("TestMainWindow", "&File", None, QtGui.QApplication.UnicodeUTF8))
         self.actionExit.setText(QtGui.QApplication.translate("TestMainWindow", "E&xit", None, QtGui.QApplication.UnicodeUTF8))
 
